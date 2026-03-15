@@ -7,45 +7,30 @@ import joblib
 
 from grid_network import create_grid, route_power
 
-
-# -----------------------------
 # Load AI models
-# -----------------------------
 
 solar_model = joblib.load("../models/solar_model.pkl")
 wind_model = joblib.load("../models/wind_model.pkl")
 demand_model = joblib.load("../models/demand_model.pkl")
 
 
-# -----------------------------
 # Create grid
-# -----------------------------
 
 grid = create_grid()
 
 areas = ["Area1", "Area2", "Area3"]
 
-
-# -----------------------------
 # Battery system
-# -----------------------------
 
 battery_capacity = 1000
 battery_level = 500
 
 
-# -----------------------------
-# Lag values
-# -----------------------------
-
 previous_demands = {"Area1":350,"Area2":350,"Area3":350}
 previous_ev = {"Area1":120,"Area2":120,"Area3":120}
 previous_house = {"Area1":300,"Area2":300,"Area3":300}
 
-
-# -----------------------------
 # Weather simulation
-# -----------------------------
 
 def simulate_weather(hour):
 
@@ -65,9 +50,7 @@ def simulate_weather(hour):
     return temperature,cloud_cover,wind_speed,solar_radiation
 
 
-# -----------------------------
 # Sensor simulation
-# -----------------------------
 
 def generate_sensor_data():
 
@@ -76,9 +59,6 @@ def generate_sensor_data():
 
     return ev_load,house_demand
 
-# -----------------------------
-# Reset logs when simulator starts
-# -----------------------------
 
 with open("../decision_log.json","w") as f:
     json.dump([],f)
@@ -89,9 +69,6 @@ with open("../grid_state.json","w") as f:
 with open("../area_state.json","w") as f:
     json.dump({},f)
 
-# -----------------------------
-# Real-time simulation
-# -----------------------------
 
 while True:
 
@@ -107,9 +84,8 @@ while True:
     surpluses = {}
     area_states = {}
 
-    print("\n==============================")
+
     print("AI SMART GRID CONTROLLER")
-    print("==============================")
     print("Time:",now)
     print("Battery Level:",battery_level,"/",battery_capacity)
 
@@ -199,9 +175,6 @@ while True:
     print("Deficits:",deficits)
 
 
-    # -----------------------------
-    # Battery storage
-    # -----------------------------
 
     for area in surpluses:
 
@@ -225,16 +198,11 @@ while True:
             print("Stored",stored,"MW in battery")
 
 
-    # -----------------------------
-    # Handle deficits
-    # -----------------------------
 
     for deficit_area in deficits:
 
         deficit = deficits[deficit_area]
 
-
-        # battery supply
 
         if battery_level > 0:
 
@@ -252,7 +220,6 @@ while True:
             print("Battery supplied",discharge,"MW to",deficit_area)
 
 
-        # area transfer
 
         if deficit > 0:
 
@@ -281,8 +248,6 @@ while True:
                         break
 
 
-        # plant supply
-
         if deficit > 0:
 
             path = route_power(grid,"Plant",deficit_area,deficit)
@@ -298,9 +263,6 @@ while True:
             print("Plant supplied",deficit,"MW to",deficit_area)
 
 
-    # -----------------------------
-    # Save state
-    # -----------------------------
 
     grid_state = {
         "time":str(now),

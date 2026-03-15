@@ -5,15 +5,9 @@ from streamlit_autorefresh import st_autorefresh
 
 st.set_page_config(layout="wide")
 
-# auto refresh
 st_autorefresh(interval=3000, key="refresh")
 
-st.title("⚡ AI Smart Grid Control Center")
-
-
-# -----------------------------
-# JSON Loader
-# -----------------------------
+st.title("Smart Grid Management System")
 
 def load_json(file):
     try:
@@ -30,11 +24,6 @@ try:
         log_data = json.load(f)
 except:
     log_data = []
-
-
-# -----------------------------
-# AREA STATUS
-# -----------------------------
 
 st.subheader("Area Status")
 
@@ -79,10 +68,6 @@ House Demand: {data['house_demand']} MW
             st.info("Waiting for simulator data...")
 
 
-# -----------------------------
-# BATTERY STATUS
-# -----------------------------
-
 st.divider()
 
 st.subheader("Battery Status")
@@ -101,14 +86,9 @@ c2.metric("Battery Capacity (MW)", capacity)
 c3.metric("Charge %", round(percent*100,2))
 
 
-# -----------------------------
-# AI DECISIONS
-# -----------------------------
-
 st.divider()
 
-st.subheader("AI Grid Decisions")
-
+st.subheader("Grid Decisions")
 
 def format_routing(routes):
 
@@ -163,4 +143,4 @@ if len(log_data) > 0:
 
 else:
 
-    st.info("Waiting for AI decisions...")
+    st.info("Waiting for decisions...")

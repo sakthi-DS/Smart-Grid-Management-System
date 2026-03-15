@@ -8,8 +8,7 @@ rows = []
 
 start_time = datetime(2024,1,1,0,0)
 
-num_hours = 24 * 60   # 60 days of data
-
+num_hours = 24 * 60  
 
 for i in range(num_hours):
 
@@ -17,31 +16,11 @@ for i in range(num_hours):
 
     hour = current_time.hour
 
-
-    # -----------------------
-    # temperature pattern
-    # -----------------------
-
     temperature = 25 + 8 * math.sin((hour-6)/24 * 2*math.pi)
-
-
-    # -----------------------
-    # cloud cover
-    # -----------------------
 
     cloud_cover = random.randint(0,80)
 
-
-    # -----------------------
-    # wind speed
-    # -----------------------
-
     wind_speed = random.uniform(3,12)
-
-
-    # -----------------------
-    # solar radiation
-    # -----------------------
 
     if 6 <= hour <= 18:
 
@@ -51,27 +30,11 @@ for i in range(num_hours):
 
         solar_radiation = 0
 
-
     solar_radiation *= (1 - cloud_cover/100)
-
-
-    # -----------------------
-    # solar generation
-    # -----------------------
 
     solar = solar_radiation * 0.35
 
-
-    # -----------------------
-    # wind generation
-    # -----------------------
-
     wind = wind_speed ** 2 * 1.2
-
-
-    # -----------------------
-    # EV load pattern
-    # -----------------------
 
     if 18 <= hour <= 22:
         ev_load = random.randint(120,220)
@@ -82,10 +45,6 @@ for i in range(num_hours):
     else:
         ev_load = random.randint(40,100)
 
-
-    # -----------------------
-    # household demand
-    # -----------------------
 
     if 18 <= hour <= 23:
 
