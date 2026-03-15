@@ -1,0 +1,882 @@
+[
+    {
+        "time": "2026-03-15 07:40:10.981337",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 176.96479034423828,
+            "Area2": 272.83442306518555,
+            "Area3": 218.8037567138672
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 176.96479034423828,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 272.83442306518555,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 218.8037567138672,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:40:05.885417",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 277.5471649169922,
+            "Area2": 284.0160140991211,
+            "Area3": 345.5714302062988
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 277.5471649169922,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 284.0160140991211,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 345.5714302062988,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:40:00.772448",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 165.15042114257812,
+            "Area2": 153.72967529296875,
+            "Area3": 257.10933685302734
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 165.15042114257812,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 153.72967529296875,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 257.10933685302734,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:55.675537",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 243.72224044799805,
+            "Area2": 266.6844711303711,
+            "Area3": 283.1922130584717
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 243.72224044799805,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 266.6844711303711,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 283.1922130584717,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:50.586995",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 276.59759521484375,
+            "Area2": 285.28397369384766,
+            "Area3": 196.01077270507812
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 276.59759521484375,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 285.28397369384766,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 196.01077270507812,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:45.507862",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 372.2811737060547,
+            "Area2": 324.1967124938965,
+            "Area3": 279.5070152282715
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 372.2811737060547,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 324.1967124938965,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 279.5070152282715,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:40.423429",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 232.42518615722656,
+            "Area2": 229.14194869995117,
+            "Area3": 365.74218368530273
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 232.42518615722656,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 229.14194869995117,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 365.74218368530273,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:35.339121",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 347.41515350341797,
+            "Area2": 234.73001289367676,
+            "Area3": 320.2613105773926
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 347.41515350341797,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 234.73001289367676,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 320.2613105773926,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:30.259153",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 370.9788761138916,
+            "Area2": 335.11174392700195,
+            "Area3": 298.882022857666
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 370.9788761138916,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 335.11174392700195,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 298.882022857666,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:25.197318",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 253.70184707641602,
+            "Area2": 263.19231033325195,
+            "Area3": 295.39748764038086
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 253.70184707641602,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 263.19231033325195,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 295.39748764038086,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:20.156037",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 198.11549377441406,
+            "Area2": 336.34217262268066,
+            "Area3": 271.5338954925537
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 198.11549377441406,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 336.34217262268066,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 271.5338954925537,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:15.056807",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 305.8414421081543,
+            "Area2": 196.71986389160156,
+            "Area3": 369.1804656982422
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 305.8414421081543,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 196.71986389160156,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 369.1804656982422,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:09.968928",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 345.19854164123535,
+            "Area2": 274.76126861572266,
+            "Area3": 245.26538848876953
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 345.19854164123535,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 274.76126861572266,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 245.26538848876953,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:39:04.875755",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 291.63848876953125,
+            "Area2": 239.3506202697754,
+            "Area3": 262.3196449279785
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 291.63848876953125,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 239.3506202697754,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 262.3196449279785,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:38:59.787346",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 213.72748565673828,
+            "Area2": 293.34124755859375,
+            "Area3": 144.1833267211914
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 213.72748565673828,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 293.34124755859375,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 144.1833267211914,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:38:54.685531",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 268.9947280883789,
+            "Area2": 178.18378067016602,
+            "Area3": 341.1827850341797
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 268.9947280883789,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 178.18378067016602,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 341.1827850341797,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:38:49.606247",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 330.98808670043945,
+            "Area2": 194.79756927490234,
+            "Area3": 348.2493896484375
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 330.98808670043945,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 194.79756927490234,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 348.2493896484375,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:38:44.506653",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 334.0865173339844,
+            "Area2": 236.88208770751953,
+            "Area3": 185.69604110717773
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 334.0865173339844,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 236.88208770751953,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 185.69604110717773,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:38:39.401046",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 332.4803352355957,
+            "Area2": 342.50365257263184,
+            "Area3": 194.08771514892578
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 332.4803352355957,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 342.50365257263184,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 194.08771514892578,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    },
+    {
+        "time": "2026-03-15 07:38:34.296658",
+        "surpluses": {},
+        "deficits": {
+            "Area1": 308.2949562072754,
+            "Area2": 195.06005096435547,
+            "Area3": 260.5556640625
+        },
+        "routing": [
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area1",
+                "power": 308.2949562072754,
+                "route": [
+                    "Plant",
+                    "A",
+                    "Area1"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area2",
+                "power": 195.06005096435547,
+                "route": [
+                    "Plant",
+                    "B",
+                    "Area2"
+                ]
+            },
+            {
+                "type": "plant_supply",
+                "from": "Plant",
+                "to": "Area3",
+                "power": 260.5556640625,
+                "route": [
+                    "Plant",
+                    "C",
+                    "Area3"
+                ]
+            }
+        ]
+    }
+]
