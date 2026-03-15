@@ -1,0 +1,14 @@
+
+__pycache__/
+*.py[cod]
+Data/
+*.json
+*.csv
+
+models/
+*.pkl
+*.h5
+*.joblib
+
+venv/
+.env
